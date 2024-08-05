@@ -108,7 +108,7 @@ var bgColor = "2a3a40";
 /* COMMANDS */
 /* VARIABLES */
 var adminCommandTimeout = true;
-const token = "thr1.AAAAAGauSjK7_j55YudQ-A.WhmiXi7xBzU";
+const token = "thr1.AAAAAGawurP2REDGZfH1jA.jS0Xu7Qqqkw";
 var goalDictionary = {};
 /* ROOM */
 const roomNumber = 0;

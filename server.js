@@ -54,7 +54,7 @@ const runHaxball = async (page, roomArgs) => {
   await page.evaluate(`const roomArgs = ${ JSON.stringify(roomArgs) };`);
 
   // load HaxBall script into page (need to wait for the iframe to load)
-  setTimeout(() => fs.readFile('haxball.js', 'utf8', (err, hbScript) => {
+  setTimeout(() => fs.readFile('botjt2.js', 'utf8', (err, hbScript) => {
     if (err) throw err;
 
     page.evaluate(hbScript).then(() => {
